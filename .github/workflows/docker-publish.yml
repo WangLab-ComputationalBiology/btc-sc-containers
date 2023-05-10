@@ -34,6 +34,7 @@ jobs:
       id-token: write
 
     strategy:
+      fail-fast: false
       matrix:
         dockerfile:
           - "rna/scAligners.Dockerfile"
